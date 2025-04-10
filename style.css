@@ -29,6 +29,9 @@ a:hover {
 .status {
     color: #01b301;
 }
+.status-beta {
+    color: #eaea18
+}
 
 .logo {
     width: 40%;
@@ -57,10 +60,14 @@ a:hover {
     background-color: #000000;
     color: #ffffff;
     font-size: 18px;
-    font-family: "Comic Sans MS";
-    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px 10px;
     border: 4px outset #247fbc;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.donate-button:hover {
+    padding: 10px 20px;
     transition: 0.3s;
 }
