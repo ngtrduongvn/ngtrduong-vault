@@ -15,6 +15,13 @@ body {
     border-radius: 3px;
     background-color: #000000;
 }
+.follow {
+    width: 300px;
+    padding: 10px;
+    border: 4px ridge #ffffff;
+    border-radius: 3px;
+    background-color: #000000;
+}
 
 a {
     text-shadow: none;
@@ -44,11 +51,12 @@ a:hover {
 
 .games-box {
     width: 440px;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
 .games {
     display: flex;
     align-items: center;
+    text-align: center;
     margin-bottom: 10px;
     padding: 15px;
     border: 3px outset #c4c4c4;
