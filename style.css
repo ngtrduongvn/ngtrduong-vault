@@ -1,25 +1,29 @@
 body {
-    user-select: none;
-    color: #ffffff;
-    background-color: #111111;
-    font-family: 'Consolas';
-    text-align: center;
+  user-select: none;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin: 0 auto;
 }
 
+.des {
+  text-align: left;
+}
+.des p {
+  font-size: 18px;
+}
+
+/* Đường dẫn */
 a {
-    text-shadow: none;
-    text-decoration: none;
-    color: #0047AB;
-}
-a:hover {
-    text-decoration: underline; /* Hiện gạch chân khi hover */
-    color: #1F75FE; /* Đổi màu khi hover */
+  color: #5a5d63;
 }
 
-.text-logo {
-    color: #00FF41;
-    font-size: 40px;
-}
-.text-des {
-    color: lightgray;
+
+
+/* Main */
+h1 {
+  color: #00ff2b;
 }

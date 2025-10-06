@@ -14,14 +14,6 @@ document.addEventListener("contextmenu", function (event) {
     event.preventDefault();
 });
 
-// Phát hiện DevTools đang mở
-setInterval(function () {
-    if (window.outerWidth - window.innerWidth > 200) {
-        alert("Không được mở DevTools!");
-        window.location.reload();
-    }
-}, 1000);
-
 // Chặn mở DevTools qua Console
 (function() {
     function blockDevTools() {
