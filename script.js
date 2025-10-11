@@ -23,7 +23,8 @@ document.addEventListener("contextmenu", function (event) {
             })();
         }, 100);
     }
-    blockDevTools();
+    blockDevTools(
+    );
 })();
 
 // Chặn kéo thả hình ảnh
