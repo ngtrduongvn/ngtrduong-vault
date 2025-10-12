@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+  body {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    display: block;
+  }
+}
